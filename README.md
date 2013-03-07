@@ -18,3 +18,5 @@ Newbie-Gift
 * 另开发一个 perlscript 语言，就是能把大括号改成用缩进，同时去掉分号。象 livescript 那样，不过只要实现前面说到的这个功能就行了。这样有深层次的语法嵌套（比如 if 、 for 什么的），就省得写一堆收尾的大括号了。
 
 希望大家广泛参与，会不断地有新的规范释出，大家只要按规范实现，添加代码即可。想要参与的请发邮件到 formalin14 at gmail dot com，或 perlchina 邮件列表， 或在 qq 群（552603）里招呼，或 github 私信。特别是欢迎国外高手参与。
+
+之所以发起这个项目，是因为看了 Steven 的这个 ppt ： [https://speakerdeck.com/stevan_little/perl-is-not-dead-it-is-a-dead-end](https://speakerdeck.com/stevan_little/perl-is-not-dead-it-is-a-dead-end) 。然后我就在想，为什么我们要暴露一堆复杂的狗屎给用户，为什么要让用户去 CPAN 的海洋里游泳，然后溺水？

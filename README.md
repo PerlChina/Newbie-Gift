@@ -19,6 +19,12 @@ Newbie-Gift
 
 希望大家广泛参与，会不断地有新的规范释出，大家只要按规范实现，添加代码即可。想要参与的请发邮件到 formalin14 at gmail dot com，或 perlchina 邮件列表， 或在 qq 群（552603）里招呼，或 github 私信。特别是欢迎国外高手参与。
 
+***[规范请看这里](https://github.com/PerlChina/Newbie-Gift/tree/master/spec)***
+
+***规范同时也是用户手册***
+
+每个规范的实现状态会在标题后面注明，没有注明表示还未实现，正在实现会注明谁在负责，已经实现的会注明待测试。这时候就已经可以使用了。测试稳定的会注明稳定。
+
 之所以发起这个项目，是因为看了 Steven 的这个 ppt ： [https://speakerdeck.com/stevan_little/perl-is-not-dead-it-is-a-dead-end](https://speakerdeck.com/stevan_little/perl-is-not-dead-it-is-a-dead-end) 。然后我就在想，为什么我们要暴露一堆复杂的狗屎给用户，为什么要让用户去 CPAN 的海洋里游泳，然后溺水？
 
 最後套用互聯網圈的一句話：改善用戶體驗，提升用戶轉化率。

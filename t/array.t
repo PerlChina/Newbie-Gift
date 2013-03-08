@@ -24,6 +24,24 @@ $ar->each(sub {
 ok($sum == 29, "each");
 ok($sumi == 6, "each index");
 
+$ar->push(5);
+
+ok($ar->[4] == 5, "push");
+
+$ar->unshift(27);
+
+ok($ar->[0] == 27, "unshift");
+
+my $v = $ar->pop();
+
+ok($v == 5, "pop 1");
+ok($ar->[4] == 7, "pop 2");
+
+ok($ar->size() == 5, "size");
+
+$v = $ar->shift();
+ok($v == 27, "shift 1");
+ok($ar->[0] == 10, "shift 2");
 
 
 done_testing;

@@ -48,4 +48,9 @@ sub sort {
     return Array->new(@tmp);
 }
 
+sub size {
+    my ($self) = @_;
+    return scalar(@$self);
+}
+
 1;
